@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title >Fundamentos de CSS, Framework CSS</title>
+  
+  <style>
+    body{
+      background-color: #506364;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .capsula{
+      background-color: #52a0c5;
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+    }
+    nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+nav li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+nav li:hover ul {
+  display: block;
+  width: 200px;
+  background-color: #62a5c5;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: #f00;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div style="text-align:center; width:100%;">
+    <h3 style="color:#f0f0f0;">Fundamentos de CSS, Framework CSS</h3>
+    
+  </div>
+    <div style="margin: 4%; padding: 1em; text-align: center; background-color: #f0f0f0; border-radius: 3px;">
+      <nav>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li>
+      <a href="#">Temas</a>
+      <ul>
+        <li><a href="#">Tema 1</a></li>
+        <li><a href="#">Tema 2</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Recursos Digitales</a>
+      <ul>
+        <li><a href="#">Recurso 1</a></li>
+        <li><a href="#">Recurso 2</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Aprendizaje</a>
+      <ul>
+        <li><a href="#">Actividad 1</a></li>
+        <li><a href="#">Actividad 2</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Autor</a>
+      
+    </li>
+  </ul>
+</nav>
+    </div>
+  
+  <section class="capsula">
+     <h4>Propósito del sitio</h4>
+     <p>
+       Conocer para que sirven las hojas de estilo css , como se usan y identificar que es un framework css en el diseño web.
+     </p>
+   </section>
+
+  <div class="capsula">
+
+   
+   <article>
+     <p>
+    <h4>Borrador del contenido de sitio</h4>
+    <h5>Fundamentos de CSS :</h5>
+    CSS son las abreviaturas en inglés para Cascading Style Sheets (Hojas de Estilo en Cascada, en español). Esencialmente, es un lenguaje que rige el diseño y presentación de los sitios y páginas web, en otras palabras, cómo se ven cuando un usuario las visita.
+    <br>
+    <br>
+    CSS fue implementado por W3C (World Wide Web Consortium) en 1996  como una manera para que los programadores web especificaran la apariencia visual de las páginas y sitios web que se estaban desarrollando. Su principal objetivo era separar el contenido y la estructura de un sitio web de la parte visual, algo que no había desarrollado antes de este momento.
+    <br>
+    <br>
+    La división de la estructura y estilo permite al HTML realizar más en su trabajo en la que se pensó originalmente: el marcado del contenido, sin tener que pensar por el diseño de la página en sí, algo llamado como apariencia de la página.
+    <br>
+    <br>
+    CSS no ganó popularidad hasta el año 2000 cuando los navegadores web iniciaron a utilizar más que que las apariencias básicas de fuente y color de este lenguaje de marcado. Hoy por hoy, todos los navegadores actuales reconocen todos los niveles desde CSS 1 hasta CSS 3. Mientras CSS evoluciona e introducen nuevos estilos, los navegadores han iniciado desarrollar módulos que permiten soporte de CSS con el objetivo de brindar a los desarrolladores web nuevas y excelentes herramientas de estilos con las que puede trabajar.
+    <br>
+    <br>
+    Por mucho tiempo, existió un grupo de personas que negaron usar CSS para diseñar y desarrollar páginas y sitios web, pero esa práctica ha ido desapareciendo hoy en día. Este lenguaje actualmente es un estándar que es muy utilizado en el diseño web y es muy difícil actualmente que trabaje en la industria que no tenga un mínimo conocimiento de este lenguaje.
+    <br>
+    <br>
+     Referencia <a href="https://lovtechnology.com/que-son-las-hojas-estilo-cascada/">https://lovtechnology.com/que-son-las-hojas-estilo-cascada/</a> </p>
+   </article>
+ </div>
+ <div class="capsula">
+   <article>
+     <p>
+    <h4>Borrador del contenido de sitio</h4>
+    <h5>Framework Css :</h5>
+    Los frameworks se utilizan en el ámbito de la programación de aplicaciones desde hace décadas. Recientemente han comenzado a utilizarse para programar y diseñar aplicaciones web, por lo que ya existen decenas de frameworks para CSS.
+    <br>
+    <br>
+    <div style="text-align: center; width:100%;">
+      
+    <img src="framewors.jpg" width="50%;" style="padding: 2%;">
+    </div>
+<br>
+<br>
+Genéricamente, un framework es un conjunto de herramientas, librerías, convenciones y buenas prácticas que pretenden encapsular las tareas repetitivas en módulos genéricos fácilmente reutilizables.
+<br>
+<br>
+De la misma forma, un framework CSS es un conjunto de herramientas, hojas de estilos y buenas prácticas que permiten al diseñador web olvidarse de las tareas repetitivas para centrarse en los elementos únicos de cada diseño en los que puede aportar valor.
+    <br>
+    <br>
+     Referencia <a href="https://uniwebsidad.com/libros/css-avanzado/capitulo-5">https://uniwebsidad.com/libros/css-avanzado/capitulo-5</a> </p>
+   </article>
+   <h4>Mockup</h4>
+   <div style="text-align:center; width:100%;">
+     <img src="mockup.png" style="width: 30%;">
+     <img src="podcast.jpg" style="width: 30%;">
+   </div>
+   
+  </div>
+  <footer class="capsula">
+    <h4>Autor:</h4>
+    Correo: estebansoler15@gmail.com
+    <br>
+    <br>
+    Skype : <a href="https://join.skype.com/invite/DVCtpz9LMUDc">https://join.skype.com/invite/DVCtpz9LMUDc</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title >Tema 1 Fundamentos de CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-color: #506364;
+     font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
+    }
+    .capsulainfo{
+      background-color: #52a0c5;
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+      margin: 5em;
+    }
+    .capsulafoto{
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+      margin: 5em;
+    }
+nav
+{
+  padding: 2em;
+}
+    nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  font-size: 1.2rem;
+  position: relative;
+  background-color: #ffffff;
+    padding: 2em;
+
+}
+
+nav li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: #f00;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div style="text-align:center; width:100%;">
+    <h1 style="color:#f0f0f0;">Fundamentos de CSS</h1>
+  </div>
+    <div style="text-align: center;">
+      <nav>
+  <ul>
+    <li style="width: 13%;"><a href="index.html"><strong>Inicio</strong> </a></li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Temas</strong></a>
+      <ul>
+        <li><a href="tema1.html">Tema 1</a></li>
+        <li><a href="tema2.html">Tema 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Recursos Digitales</strong></a>
+      <ul>
+        <li><a href="recurso1.html">Recurso 1</a></li>
+        <li><a href="recurso2.html">Recurso 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Aprendizaje</strong></a>
+      <ul>
+        <li><a href="#">Actividad 1</a></li>
+        <li><a href="#">Actividad 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="autor.html"><strong>Autor</strong></a>
+      
+    </li>
+  </ul>
+</nav>
+    </div>
+  <div style="display:flex; justify-content: space-between;">
+    <section class="capsulainfo" style=" width:40%;">
+     <h4>Fundamentos del Css</h4>
+     <p>
+      Fundamentos de CSS :
+      CSS son las abreviaturas en inglés para Cascading Style Sheets (Hojas de Estilo en Cascada, en español). Esencialmente, es un lenguaje que rige el diseño y presentación de los sitios y páginas web, en otras palabras, cómo se ven cuando un usuario las visita.
+<br>
+<br>
+      CSS fue implementado por W3C (World Wide Web Consortium) en 1996 como una manera para que los programadores web especificaran la apariencia visual de las páginas y sitios web que se estaban desarrollando. Su principal objetivo era separar el contenido y la estructura de un sitio web de la parte visual, algo que no había desarrollado antes de este momento.
+<br>
+<br>
+      La división de la estructura y estilo permite al HTML realizar más en su trabajo en la que se pensó originalmente: el marcado del contenido, sin tener que pensar por el diseño de la página en sí, algo llamado como apariencia de la página.
+<br>
+<br>
+      CSS no ganó popularidad hasta el año 2000 cuando los navegadores web iniciaron a utilizar más que que las apariencias básicas de fuente y color de este lenguaje de marcado. Hoy por hoy, todos los navegadores actuales reconocen todos los niveles desde CSS 1 hasta CSS 3. Mientras CSS evoluciona e introducen nuevos estilos, los navegadores han iniciado desarrollar módulos que permiten soporte de CSS con el objetivo de brindar a los desarrolladores web nuevas y excelentes herramientas de estilos con las que puede trabajar.
+<br>
+<br>
+      Por mucho tiempo, existió un grupo de personas que negaron usar CSS para diseñar y desarrollar páginas y sitios web, pero esa práctica ha ido desapareciendo hoy en día. Este lenguaje actualmente es un estándar que es muy utilizado en el diseño web y es muy difícil actualmente que trabaje en la industria que no tenga un mínimo conocimiento de este lenguaje.
+     </p>
+   </section>
+   <section class="capsulafoto" style="text-align:center; width:40%;">
+     <img src="css32.png" width="60%;">
+     <p>Imagen tomada de Tutorial Republic (Css Tutorial):  <a href="https://www.tutorialrepublic.com/css-tutorial/">https://www.tutorialrepublic.com/css-tutorial/</a> </p>
+   </section>
+  </div>
+  <footer class="capsulainfo" style="text-align: center; margin: 0;">
+    <h4>Desarrollado por Esteban Soler</h4>
+    <br>
+    <br>
+    2023 Todos Los Derechos Reservados.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title >Autor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-color: #506364;
+     font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
+    }
+    .capsulainfo{
+      background-color: #52a0c5;
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+      margin: 5em;
+    }
+    .capsulafoto{
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+      margin: 5em;
+    }
+nav
+{
+  padding: 2em;
+}
+    nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  font-size: 1.2rem;
+  position: relative;
+  background-color: #ffffff;
+    padding: 2em;
+
+}
+
+nav li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: #f00;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div style="text-align:center; width:100%;">
+    <h1 style="color:#f0f0f0;">Fundamentos de CSS</h1>
+  </div>
+    <div style="text-align: center;">
+      <nav>
+  <ul>
+    <li style="width: 13%;"><a href="index.html"><strong>Inicio</strong> </a></li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Temas</strong></a>
+      <ul>
+        <li><a href="tema1.html">Tema 1</a></li>
+        <li><a href="tema2.html">Tema 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Recursos Digitales</strong></a>
+      <ul>
+        <li><a href="recurso1.html">Recurso 1</a></li>
+        <li><a href="recurso2.html">Recurso 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Aprendizaje</strong></a>
+      <ul>
+        <li><a href="#">Actividad 1</a></li>
+        <li><a href="#">Actividad 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="autor.html"><strong>Autor</strong></a>
+      
+    </li>
+  </ul>
+</nav>
+    </div>
+  <div style="display:flex; justify-content: space-between;">
+    <section class="capsulainfo" style=" width:40%;">
+     <h4>Autor:</h4>
+     <p>
+      Nombre: Rafael Esteban Soler Galindo
+<br>
+<br>
+      Código:100408
+<br>
+<br>
+      Programa : Ingeniería de Sistemas
+<br>
+<br>
+      Correo : Estebansoler15@gmail.com
+<br>
+<br>
+      Skype : live:estebansoler15
+     </p>
+   </section>
+   <section class="capsulafoto" style="text-align:center; width:40%;">
+     <img src="esteban.jpeg" width="60%;">
+     
+   </section>
+  </div>
+  <footer class="capsulainfo" style="text-align: center; margin: 0;">
+    <h4>Desarrollado por Esteban Soler</h4>
+    <br>
+    <br>
+    2023 Todos Los Derechos Reservados.
+  </footer>
+
+</body>
+</html>

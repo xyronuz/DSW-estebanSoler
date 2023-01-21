@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title >Recurso 1 Fundamentos de CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-color: #506364;
+     font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
+    }
+    .capsulainfo{
+      background-color: #52a0c5;
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+      margin: 5em;
+    }
+    .capsulafoto{
+      border: 3px solid #384646;
+      padding: 20px;
+      border-radius: 20px;
+      color: #ffffff;
+      margin: 5em;
+    }
+nav
+{
+  padding: 2em;
+}
+    nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  font-size: 1.2rem;
+  position: relative;
+  background-color: #ffffff;
+    padding: 2em;
+
+}
+
+nav li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: #f00;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div style="text-align:center; width:100%;">
+    <h1 style="color:#f0f0f0;">Frameworks de CSS</h1>
+  </div>
+    <div style="text-align: center;">
+      <nav>
+  <ul>
+    <li style="width: 13%;"><a href="index.html"><strong>Inicio</strong> </a></li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Temas</strong></a>
+      <ul>
+        <li><a href="tema1.html">Tema 1</a></li>
+        <li><a href="tema2.html">Tema 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Recursos Digitales</strong></a>
+      <ul>
+        <li><a href="recurso1.html">Recurso 1</a></li>
+        <li><a href="recurso2.html">Recurso 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="#"><strong>Aprendizaje</strong></a>
+      <ul>
+        <li><a href="#">Actividad 1</a></li>
+        <li><a href="#">Actividad 2</a></li>
+      </ul>
+    </li>
+    <li style="width: 13%;">
+      <a href="autor.html"><strong>Autor</strong></a>
+      
+    </li>
+  </ul>
+</nav>
+    </div>
+  <div style="display:flex; justify-content: space-between;">
+    <section class="capsulainfo" style=" width:40%;">
+     <h4>Fundamento Css (Podcast)</h4>
+     "Queria hablarles del diseño web con css.
+
+Soy diseñador web aproximadamente hace un año
+al inicio fue como descubrir un mundo nuevo donde podia crear
+lo que quisiera con codigo.
+<br>
+<br>
+el css3 en este camino ha sido de gran ayuda cada vez ir explorando y descrubiendo nuevas maneras de desarrollar una idea
+ya sea una pagina para un negocio o para cualquier marca.
+<br>
+<br>
+toca alimentar ese conocimiento seguido para no quedarse atrasado en cuanto a tecnologias para desarrollar en web.
+Siempre que creo el css de mi pagina web lo hago directamente en el elemento con la etiqueta style, cuando me queda el sitio web como quiero creo un documento css para enlazarlo y que quede mas organizado."
+<img src="micro.png" width="30%;">
+ <p>Imagen tomada de Google Imagenes <a href="https://www.pngegg.com/es/png-bykle">https://www.pngegg.com/es/png-bykle</a> </p>
+   </section>
+   <section class="capsulafoto" style="text-align:center; width:40%; border: 0;">
+     
+    
+     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1429510489&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/belce-video" title="Belce Video" target="_blank" style="color: #cccccc; text-decoration: none;">Belce Video</a> · <a href="https://soundcloud.com/belce-video/podcast1-css" title="Podcast1 CSS" target="_blank" style="color: #cccccc; text-decoration: none;">Podcast1 CSS</a></div>
+   </section>
+  </div>
+  <footer class="capsulainfo" style="text-align: center; margin: 0;">
+    <h4>Desarrollado por Esteban Soler</h4>
+    <br>
+    <br>
+    2023 Todos Los Derechos Reservados.
+  </footer>
+
+</body>
+</html>

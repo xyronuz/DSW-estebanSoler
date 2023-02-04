@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="El diseño web desde sus comienzos buscaba ganar la confianza del usuario mediante la forma en que se muestra la información ,se implementaron diferentes metodologias para customizar los colores , tamaños y contenido multimedia.">
+  <title >Fundamentos de CSS, Framework CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body{
+      background-color: #506364;
+       font-family: 'Ubuntu', sans-serif;
+    }
+     .capsula{
+      background-color: #52a0c5;
+      border: 3px solid #384646;
+      color: #ffffff;
+      border-radius: 10px;
+    }
+}
+  </style>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Fundamentos de CSS, Framework CSS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Temas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="tema1.html">Tema 1</a></li>
+            <li><a class="dropdown-item" href="tema2.html">Tema 2</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Recursos Digitales
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="recurso1.html">Recurso 1</a></li>
+            <li><a class="dropdown-item" href="recurso2.html">Recurso 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Aprendizaje
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="aprendizaje1.html">Cuestionario 1</a></li>
+            <li><a class="dropdown-item" href="aprendizaje2.html">Cuestionario 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ">
+          
+          <a class="nav-link" href="autor.html">Autor</a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+<main>
+  <div class="container pt-5">
+    <div class="row" style="background: url(css3.png) center no-repeat;height: 200px;">
+      
+    </div>
+    <div class="row">
+      <article class="col-md-10 capsula mx-auto">
+        <h1>Fundamentos del Css</h1>
+        <p>
+          Fundamentos de CSS : CSS son las abreviaturas en inglés para Cascading Style Sheets (Hojas de Estilo en Cascada, en español). Esencialmente, es un lenguaje que rige el diseño y presentación de los sitios y páginas web, en otras palabras, cómo se ven cuando un usuario las visita.
+        </p>
+        <p>
+          CSS fue implementado por W3C (World Wide Web Consortium) en 1996 como una manera para que los programadores web especificaran la apariencia visual de las páginas y sitios web que se estaban desarrollando. Su principal objetivo era separar el contenido y la estructura de un sitio web de la parte visual, algo que no había desarrollado antes de este momento.
+        </p>
+       <p>
+         La división de la estructura y estilo permite al HTML realizar más en su trabajo en la que se pensó originalmente: el marcado del contenido, sin tener que pensar por el diseño de la página en sí, algo llamado como apariencia de la página.
+       </p>
+       <p>
+         CSS no ganó popularidad hasta el año 2000 cuando los navegadores web iniciaron a utilizar más que que las apariencias básicas de fuente y color de este lenguaje de marcado. Hoy por hoy, todos los navegadores actuales reconocen todos los niveles desde CSS 1 hasta CSS 3. Mientras CSS evoluciona e introducen nuevos estilos, los navegadores han iniciado desarrollar módulos que permiten soporte de CSS con el objetivo de brindar a los desarrolladores web nuevas y excelentes herramientas de estilos con las que puede trabajar. 
+       </p>
+      <p>
+        Por mucho tiempo, existió un grupo de personas que negaron usar CSS para diseñar y desarrollar páginas y sitios web, pero esa práctica ha ido desapareciendo hoy en día. Este lenguaje actualmente es un estándar que es muy utilizado en el diseño web y es muy difícil actualmente que trabaje en la industria que no tenga un mínimo conocimiento de este lenguaje.
+      </p>
+      <div class="col-md-5 mx-auto">
+      <div class="card border-dark  mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+
+        <img src="css32.png" class="img-fluid rounded-start" alt="fundamentos-css">
+              
+            </div>
+            <div class="col-md-8">
+              <div class="card-body text-dark">
+                <p class="card-text">Imagen tomada de Tutorial Republic (Css Tutorial):<a href="https://www.tutorialrepublic.com/css-tutorial/">https://www.tutorialrepublic.com/css-tutorial/</a> </p>
+                <p class="card-text"><small class="text-muted">Ultima Actualización 05/02/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </article>
+    
+  
+</div>
+
+</main>
+
+  <footer class="mt-auto text-center text-white-50 pt-5" style="position: relative; bottom: 0;">
+    <p>Realizado por <a href="autor.html" class="text-white">Esteban Soler</a>, para la UNAD Fase 4 Diseño y
+Construcción III .</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
